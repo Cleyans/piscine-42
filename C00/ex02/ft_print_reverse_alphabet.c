@@ -11,7 +11,7 @@ void	ft_print_reverse_alphabet(void)
 {
 	char src;
 	
-	stc = 'z';
+	src = 'z';
 	while (src >= 'a')
 	{
 		write(1, &src, 1);
