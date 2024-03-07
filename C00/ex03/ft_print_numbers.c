@@ -11,7 +11,7 @@ void	ft_print_numbers(void)
 {
 	char src;
 	
-	stc = '0';
+	src = '0';
 	while (src <= '9')
 	{
 		write(1, &src, 1);
