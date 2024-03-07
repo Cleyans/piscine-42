@@ -11,7 +11,7 @@ void	ft_print_alphabet(void)
 {
 	char src;
 	
-	stc = 'a';
+	src = 'a';
 	while (src <= 'z')
 	{
 		write(1, &src, 1);
